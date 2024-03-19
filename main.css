@@ -30,6 +30,14 @@ a:hover {
     width: 150px;
 }
 
+@media (max-width: 600px) {
+    .avatar {
+        border-radius: 50%;
+        width: 150px;
+        margin-top: 7em;
+    }
+}
+
 .icons {
     list-style-type: none;
     font-size: xx-large;
